@@ -7,50 +7,47 @@
 # --- Categorías de Palabras Clave ---
 # Dividimos las palabras clave para más claridad. JobFilter las leerá todas.
 job_titles: # Títulos de puesto específicos
-  # Data Science (inglés)
-  - "data scientist"
-  - "data science specialist"
-  - "data analyst"
-  - "business analyst"
-  - "BI analyst"
-  - "business intelligence"
-  - "data engineer"
-  - "machine learning engineer"
-  - "MLOps engineer"
-  - "AI engineer"
-  - "NLP engineer"
-  - "big data engineer"
-  - "decision scientist"
-  - "data architect"
-  - "ETL developer"
-  - "analytics engineer"
-  - "data scientist, NLP"
-  - "data scientist, deep learning"
-  - "computer vision engineer"
-  - "data visualization specialist"
-  - "data quality analyst"
-  - "research scientist"
-  - "deep learning engineer"
+    # Audio and production (inglés)
+  - "Audio Engineer for E-Learning / EdTech"
+  - "Instructional Designer with Multimedia Focus"
+  - "Podcast Producer for Brands or International Media"
+  - "Game Audio Designer"
+  - "Audio Engineer for Streaming and Virtual Events"
+  - "Audio Localization Specialist"
+  - "Acoustic Consultant and AV System Designer"
+  - "AV Project Coordinator"
+  - "Educational Content Developer with AI"
+  - "VR Audio Designer"
+  - "Sound Technician"
+  - "Signal Processing Engineer with Machine Learning"
+  - "Digital Designer"
+  - "Audiovisual Editor"
+  - "Instructional Designer"
+  - "Audio Editor for Radio"
+  - "Streaming Technician"
+  - "Radio Program Producer"
+  - "Remote Production Assistant"
   
-  # Data Science (español)
-  - "científico de datos"
-  - "analista de datos"
-  - "analista de negocio"
-  - "analista BI"
-  - "inteligencia de negocios"
-  - "ingeniero de datos"
-  - "especialista en big data"
-  - "especialista en machine learning"
-  - "científico de decisiones"
-  - "arquitecto de datos"
-  - "analista de calidad de datos"
-  - "científico investigador de datos"
-  - "desarrollador ETL"
-  - "ingeniero de análisis"
-  - "analista de datos senior"
-  - "ingeniero MLOps"
-  - "especialista en visión artificial"
-  - "especialista en NLP"
+  # Audio y Producción (español)
+  - "Ingeniera de Audio para E-Learning / EdTech"
+  - "Diseñadora Instruccional con Enfoque en Multimedia"
+  - "Productora de Podcasts para Marcas o Medios Internacionales"
+  - "Diseñadora de Audio para Videojuegos"
+  - "Ingeniera de Sonido para Streaming y Eventos Virtuales"
+  - "Especialista en Localización de Audio"
+  - "Consultora en Acústica y Diseño de Espacios Audiovisuales"
+  - "Coordinadora de Proyectos Audiovisuales"
+  - "Desarrolladora de Contenido Educativo con IA"
+  - "Diseñadora de Sonido para Realidad Virtual"
+  - "Sonidista"
+  - "Procesadora de Señales con Machine Learning"
+  - "Diseñadora Digital"
+  - "Editora Audiovisual"
+  - "Diseñadora Instruccional"
+  - "Editora de Audio para Radio"
+  - "Técnica de Streaming"
+  - "Productora de Programas Radiales"
+  - "Asistente de Producción Remota"
   
   # Programación (inglés)
   - "software developer"
@@ -64,203 +61,127 @@ job_titles: # Títulos de puesto específicos
   - "web developer"
   
   # Programación (español)
-  - "desarrollador"
-  - "programador"
-  - "ingeniero de software"
-  - "programador web"
-  - "desarrollador full stack"
-  - "desarrollador frontend"
-  - "desarrollador backend"
+  - "Unity"
+  - "C#"
+  - "Gdevelop"
+  - "HTML"
+  - "Bitsy"
   - "desarrollador móvil"
   - "desarrollador de aplicaciones"
-  - "ingeniero devops"
   
   # Marketing Digital/Ecommerce
-  - "digital marketing"
-  - "marketing digital"
-  - "ecommerce"
-  - "comercio electrónico"
-  - "SEO specialist"
-  - "especialista SEO"
-  - "growth hacker"
+  - "Graphic Designer"
+  - "Visual Identity Designer"
+  - "Digital Content Creator"
+  - "Branding Specialist"
+  - "Diseñadora Gráfica"
+  - "Diseñadora de Identidad Visual"
+  - "Creadora de Contenido Digital"
+  - "Especialista en Branding"
 
 tools_technologies: # Herramientas y tecnologías específicas
   # Lenguajes de programación
   - "python"
-  - "r"
-  - "sql"
-  - "java"
-  - "javascript"
-  - "typescript"
-  - "php"
   - "c#"
-  - "golang"
-  - "rust"
-  - "kotlin"
-  - "swift"
-  - "scala"
-  - "julia"
+  - "Matlab"
   
   # Frameworks y bibliotecas
-  - "django"
-  - "flask"
-  - "fastapi"
-  - "spring"
-  - "laravel"
-  - "react"
-  - "angular"
-  - "vue"
-  - "node.js"
-  - "express"
-  - "symfony"
-  - ".net"
   - "pandas"
   - "numpy"
-  - "scikit-learn"
-  - "scipy"
-  - "seaborn"
   - "matplotlib"
-  - "tensorflow"
-  - "keras"
   - "pytorch"
-  - "hugging face"
-  - "transformers"
-  - "langchain"
-  - "spacy"
-  - "nltk"
-  - "openai"
-  - "ray"
-  - "dask"
-  - "mlflow"
-  - "kubeflow"
-  - "airflow"
+  - "Unity"
   
   # Herramientas de análisis
   - "excel"
-  - "power bi"
-  - "tableau"
-  - "looker"
-  - "metabase"
-  - "redash"
-  - "google analytics"
-  - "google data studio"
-  - "qlik"
-  - "mode analytics"
-  - "alteryx"
-  - "dbt"
   
-  # Big Data / Cloud
-  - "apache spark"
-  - "kafka"
-  - "databricks"
-  - "airflow"
-  - "snowflake"
-  - "bigquery"
-  - "aws"
-  - "ec2"
-  - "s3"
-  - "redshift"
-  - "lambda"
-  - "gcp"
-  - "google cloud"
-  - "azure"
-  - "docker"
-  - "kubernetes"
-  - "elasticsearch"
-  - "mongodb"
-  - "redis"
-  - "cassandra"
-  - "hadoop"
-  - "hive"
-  - "presto"
-  - "trino"
-  - "neo4j"
-  - "fivetran"
+  # Producción de audio y video
+  - "Pro Tools"
+  - "Logic Pro X"
+  - "Adobe Audition"
+  - "Audacity"
+  - "Descript"
+  - "Adobe Podcast"
+  - "Final Cut Pro"
+  - "DaVinci Resolve"
+  - "iZotope RX"
+  - "Fish Audio"
+  - "Riverside"
+
+  # Herramientas de diseño
+  - "Canva"
+  - "Canva IA"
+  - "Adobe Express"
+  - "Adobe Creative Cloud"
+  - "AutoCAD LT"
+  - "SketchUp"
+
+  # Desarrollo de juegos
+  - "Bitsy"
+  - "GDevelop"
+
+  # Herramientas de streaming
+  - "OBS"
+  - "StreamLabs"
+  - "Zoom"
+  - "Google Meet"
+  - "Microsoft Teams"
+
+  # Gestión de proyectos
+  - "Trello"
+  - "ClickUp"
+  - "Agile"
+  - "Scrum"
+
+  # Ofimática
+  - "Microsoft Word"
+  - "Microsoft Excel"
+  - "Microsoft PowerPoint"
+  - "Google Workspace"
+  - "Google Slides"
+
+  # IA
+  - "Google Gemini"
+  - "Adobe Firefly"
 
 topics: # Conceptos y áreas temáticas generales
   # Inteligencia Artificial / ML (inglés)
   - "machine learning"
   - "artificial intelligence"
   - "AI"
-  - "deep learning"
-  - "NLP"
-  - "natural language processing"
-  - "predictive analytics"
-  - "data mining"
-  - "statistical models"
-  - "data science"
-  - "data visualization"
-  - "data quality"
-  - "data governance"
-  - "data engineering"
-  - "exploratory analysis"
-  - "data pipeline"
-  - "data automation"
-  - "computer vision"
+  - "signal processing"
+  - "ECG signal analysis"
+  - "supervised learning"
+  - "biomedical data analysis"
   - "generative AI"
-  - "large language models"
-  - "LLM"
-  - "chatbots"
-  - "responsible AI"
-  - "data ethics"
-  - "data privacy"
-  - "reinforcement learning"
-  - "feature engineering"
-  - "time series analysis"
-  - "recommender systems"
-  - "model deployment"
-  - "model optimization"
-  - "data infrastructure"
-  - "business analytics"
-  - "vector databases"
-  
+
   # Inteligencia Artificial / ML (español)
   - "aprendizaje automático"
   - "inteligencia artificial"
   - "IA"
-  - "procesamiento de lenguaje natural"
-  - "análisis predictivo"
-  - "minería de datos"
-  - "modelos estadísticos"
-  - "ciencia de datos"
-  - "visualización de datos"
-  - "calidad de datos"
-  - "gobernanza de datos"
-  - "ingeniería de datos"
-  - "análisis exploratorio"
-  - "visión por computadora"
+  - "procesamiento de señales"
+  - "análisis de señales electrocardiográficas"
+  - "aprendizaje supervisado"
+  - "análisis de datos biomédicos"
   - "IA generativa"
-  - "modelos de lenguaje grandes"
-  - "análisis de series temporales"
-  - "sistemas de recomendación"
-  - "despliegue de modelos"
-  - "optimización de modelos"
-  
+
   # Desarrollo Web/Móvil
-  - "web development"
-  - "desarrollo web"
-  - "mobile development"
-  - "desarrollo móvil"
-  - "frontend"
-  - "backend"
-  - "full stack"
-  - "devops"
-  - "cloud computing"
-  - "computación en la nube"
-  - "API"
-  - "microservices"
-  - "microservicios"
-  
+  - "game development"
+  - "game audio design"
+  - "interactive sound"
+  - "desarrollo de videojuegos"
+  - "diseño de audio para videojuegos"
+  - "sonido interactivo"
+
   # Marketing Digital
-  - "marketing digital"
-  - "social media"
-  - "redes sociales"
-  - "SEO"
-  - "SEM"
-  - "content marketing"
-  - "marketing de contenidos"
-  - "e-commerce"
-  - "comercio electrónico"
+  - "graphic design"
+  - "visual identity design"
+  - "digital content creation"
+  - "branding"
+  - "diseño gráfico"
+  - "diseño de identidad visual"
+  - "creación de contenido digital"
+  - "manual de identidad visual"
 
 # --- Ubicaciones de Búsqueda ---
 # Expandimos las ubicaciones para maximizar ofertas de LATAM, España y Norteamérica
@@ -305,15 +226,15 @@ locations:
   - "Remote Colombia"
   - "Colombia Remoto"
   
-  # Argentina
-  - "Buenos Aires"
-  - "CABA"
-  - "Córdoba"
-  - "Rosario"
-  - "Mendoza"
-  - "Argentina"
-  - "Remote Argentina"
-  - "Argentina Remoto"
+  # # Argentina
+  # - "Buenos Aires"
+  # - "CABA"
+  # - "Córdoba"
+  # - "Rosario"
+  # - "Mendoza"
+  # - "Argentina"
+  # - "Remote Argentina"
+  # - "Argentina Remoto"
   
   # Chile
   - "Santiago"
@@ -459,114 +380,132 @@ data_storage:
 # --- Fuentes de Datos ---
 # ¡Aquí activas o desactivas cada API/Scraper!
 # Cambia 'enabled: false' a 'enabled: true' para las fuentes que quieras probar.
-# Empieza activando solo unas pocas que sepas que funcionan o que quieras depurar.
 sources:
   apis: # Clientes que usan APIs oficiales (generalmente más estables)
     adzuna:
       enabled: true # ¡Requiere APP_ID y APP_KEY en .env!
       base_api_url: "https://api.adzuna.com/v1/api/jobs/"
       results_per_page: 50
-      default_country_code: 'ec'
+      default_country_code: 'co' # Colombia por defecto (cambia a 'ca' para Canadá, 'us' para EE.UU., o 'gb' para Reino Unido/Europa)
     arbeitnow:
-      enabled: true # API pública, no necesita key
+      enabled: true # API pública para Alemania/Europa
+      base_api_url: "https://www.arbeitnow.com/api/job-board-api"
     jobicy:
-      enabled: true # API pública, no necesita key
+      enabled: true # API pública, global
     jooble:
-      enabled: true # ¡Requiere JOOBLE_API_KEY en .env! (Cliente API)
+      enabled: true # ¡Requiere JOOBLE_API_KEY en .env!
     remoteok:
-      enabled: true # API pública JSON, no necesita key
-    huggingface:
-      enabled: true # API pública de HuggingFace Jobs para roles de IA/ML
-      base_api_url: "https://huggingface.co/api/jobs"
+      enabled: true # API pública JSON, remoto global
+      base_api_url: "https://remoteok.com/api"
 
-  scrapers: # Scrapers que leen HTML (más frágiles, ¡NECESITAN VERIFICACIÓN DE SELECTORES!)
-    # --- Ecuador ---
-    computrabajo:
-      enabled: true # ¡FIXME: Necesita verificar/ajustar selectores!
-      base_url: "https://ec.computrabajo.com/"
-    multitrabajos:
-      enabled: true # ¡FIXME: Necesita verificar/ajustar selectores!
-      base_url: "https://www.multitrabajos.com"
-    porfinempleo:
-      enabled: true # ¡FIXME: Necesita verificar/ajustar selectores!
-      base_url: "https://www.porfinempleo.com/" # ¡Verificar URL!
-    portalempleoec: # Apunta a encuentraempleo.trabajo.gob.ec
-      enabled: true # ¡FIXME: Necesita verificar/ajustar selectores y quizás método (POST?)!
-      base_url: "https://encuentraempleo.trabajo.gob.ec/"
-    bumeran:
-      enabled: true # ¡FIXME: Necesita verificar/ajustar selectores!
-      base_url: "https://www.bumeran.com.ec/"
-    # --- España ---
-    infojobs:
-      enabled: true # ¡FIXME: Necesita verificar/ajustar selectores!
-      base_url: "https://www.infojobs.net"
-    tecnoempleo:
-      enabled: true # ¡FIXME: Necesita verificar/ajustar selectores!
-      base_url: "https://www.tecnoempleo.com/"
-    # --- LATAM/Global/Remoto ---
-    empleosnet:
-      enabled: true # ¡FIXME: Necesita verificar/ajustar selectores y lógica de país!
-      base_url: "https://www.empleos.net/"
-    getonboard:
-      enabled: true # ¡FIXME: Necesita verificar/ajustar selectores!
-      base_url: "https://www.getonboard.com/" # O .co? Verificar
-    remoterocketship:
-      enabled: true 
-      base_url: "https://remoterocketship.com/"
-    remotojob:
+  scrapers: # Scrapers que leen HTML
+    # --- Colombia ---
+    computrabajo_co:
       enabled: true
-      base_url: "https://remotojob.com/"
+      base_url: "https://www.computrabajo.com.co/"
+    trabajando_co:
+      enabled: true
+      base_url: "https://www.trabajando.com/colombia"
+    buscojobs:
+      enabled: true
+      base_url: "https://www.buscojobs.com.co/"
+    linkedin_co:
+      enabled: true
+      base_url: "https://www.linkedin.com/jobs/search/?keywords=&location=Colombia"
+
+    # --- Canadá ---
+    jobbank_gc_ca:
+      enabled: true
+      base_url: "https://www.jobbank.gc.ca/home"
+    indeed_ca:
+      enabled: true
+      base_url: "https://ca.indeed.com/"
+    linkedin_ca:
+      enabled: true
+      base_url: "https://www.linkedin.com/jobs/search/?location=Canada"
+
+    # --- Estados Unidos ---
+    indeed_us:
+      enabled: true
+      base_url: "https://www.indeed.com/"
+    linkedin_us:
+      enabled: true
+      base_url: "https://www.linkedin.com/jobs/search/?location=United%20States"
+
+    # --- Europa ---
+    eures:
+      enabled: true
+      base_url: "https://ec.europa.eu/eures/portal/"
+    infojobs_es:
+      enabled: true
+      base_url: "https://www.infojobs.net/"
+    stepstone_de:
+      enabled: true
+      base_url: "https://www.stepstone.de/"
+    linkedin_eu:
+      enabled: true
+      base_url: "https://www.linkedin.com/jobs/search/?location=Europe"
+
+    # --- Especializadas en Audio/Video/Producción ---
+    mandy:
+      enabled: true
+      base_url: "https://www.mandy.com/jobs"
+    soundlister:
+      enabled: true
+      base_url: "https://www.soundlister.com/"
+    productionhub:
+      enabled: true
+      base_url: "https://www.productionhub.com/jobs"
+
+    # --- Especializadas en E-Learning/Diseño Instruccional ---
+    atd_jobs:
+      enabled: true
+      base_url: "https://www.td.org/jobs"
+    elearning_guild:
+      enabled: true
+      base_url: "https://www.elearningguild.com/jobs"
+
+    # --- Especializadas en Desarrollo de Juegos ---
+    gamedev_net:
+      enabled: true
+      base_url: "https://www.gamedev.net/jobs/"
+    hitmarker:
+      enabled: true
+      base_url: "https://hitmarker.net/jobs"
+
     # --- Freelance ---
-    workana:
-      enabled: true 
-      base_url: "https://www.workana.com/"
-    soyfreelancer:
-      enabled: true 
-      base_url: "https://www.soyfreelancer.com/"
-    # --- Nuevos Portales Remotos ---
+    upwork:
+      enabled: true
+      base_url: "https://www.upwork.com/o/jobs/"
+    fiverr:
+      enabled: true
+      base_url: "https://www.fiverr.com/jobs/"
+    freelancer_com:
+      enabled: true
+      base_url: "https://www.freelancer.com/jobs/"
+    toptal:
+      enabled: true
+      base_url: "https://www.toptal.com/freelance-jobs"
+
+    # --- Portales Remotos (globales) ---
     remoteok_scraper:
       enabled: true
       base_url: "https://remoteok.com/"
     weworkremotely:
       enabled: true
-      base_url: "https://weworkremotely.com/"
-    justremote:
-      enabled: true
-      base_url: "https://justremote.co/"
-    remoteco:
-      enabled: true
-      base_url: "https://remote.co/remote-jobs/"
-    linkedin:
-      enabled: true
-      base_url: "https://www.linkedin.com/jobs/search/"
-    wellfound:
-      enabled: true
-      base_url: "https://wellfound.com/jobs"
-    remotive:
-      enabled: true
-      base_url: "https://remotive.com/"
+      base_url: "https://weworkremotely.com/remote-jobs"
     flexjobs:
       enabled: true
-      base_url: "https://www.flexjobs.com/"
-    # --- Nuevos Portales Freelance ---
-    freelancer:
+      base_url: "https://www.flexjobs.com/search"
+    remote_co:
       enabled: true
-      base_url: "https://www.freelancer.com/jobs/"
-    upwork:
+      base_url: "https://remote.co/remote-jobs/"
+    justremote:
       enabled: true
-      base_url: "https://www.upwork.com/freelance-jobs/"
-    fiverr:
+      base_url: "https://justremote.co/remote-jobs"
+    remotive:
       enabled: true
-      base_url: "https://www.fiverr.com/resources/guides/programming-tech/"
-    peopleperhour:
-      enabled: true
-      base_url: "https://www.peopleperhour.com/freelance-jobs"
-    toptal:
-      enabled: true
-      base_url: "https://www.toptal.com/freelance-jobs"
-    guru:
-      enabled: true
-      base_url: "https://www.guru.com/d/jobs/"
+      base_url: "https://remotive.com/remote-jobs"
 
 # --- Configuración de Logging ---
 logging:
